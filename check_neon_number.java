@@ -2,7 +2,7 @@ package Java_Programms;
 
 import java.util.Scanner;
 
-public class chech_neon_number
+public class check_neon_number
 
 {
     public static void main(String[] args) {
@@ -21,7 +21,15 @@ public class chech_neon_number
             System.out.println("Neon number");
 
         } else {
-            System.out.println("Not aneon number"); // 9 = 81 8+1=9
+            System.out.println("Not aneon number");
         }
     }
 }
+
+/*
+ * ex:
+ * num=9
+ * 9^2 = 81
+ * digital sum=> 8+1=9
+ * num=digital_sum
+ */
